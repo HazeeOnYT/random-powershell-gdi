@@ -24,7 +24,7 @@ $graphics.DrawLine($pen, 100, 300, 700, 300)
 # Draw some text
 $font = New-Object System.Drawing.Font 'Arial', 24
 $brush = [System.Drawing.Brushes]::Black
-$graphics.DrawString("Hello, GDI+ with PowerShell!", $font, $brush, 150, 400)
+$graphics.DrawString("ahhhhh", $font, $brush, 150, 400)
 
 # Save the bitmap to a file
 $outputFile = "GDI_Output.png"
